@@ -1,0 +1,59 @@
+header{
+  position: relative;
+  background:  #142630;
+  padding: 0;
+  border-bottom: 1px solid  #52626b ;
+}
+
+a{
+  color: rgb(253, 208, 123);
+}
+
+a:hover{
+  background: #193747;
+  color: rgb(255, 188, 62);
+  cursor: pointer;
+}
+
+.container{
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+}
+
+a.logo{
+  font-weight: bold;
+  padding: 1rem;
+}
+
+ul{
+  display: flex;
+  list-style-type: none;
+  margin: 0;
+}
+
+ul a{
+  padding: 1rem;
+  display: inline-block;
+}
+
+.menu-container{
+  position: relative;
+}
+
+.menu{
+  position: absolute;
+  z-index: 1;
+  background: #142630;
+  display: none;
+}
+
+.menu-container:hover .menu{
+  background: #193747;
+  display: block;
+}
+
+.menu a{
+  width: 100%;
+  min-width: 8rem;
+}
